@@ -1,11 +1,13 @@
-Work from Home Check-in System
+# Work from Home Check-in System
+An online Work from Home (WFH) check-in system for REO 11 personnel, built with Google Sheets and Google Apps Script.
 
-1. Open Google Sheet.
-2. Rename the sheet.
-3. Rename Sheet1 as Data
-4. Click the menu Extension.
-5. Click App Script.
-6. In Code.gs, enter this code:
+## Installation Guide
+1. Open Google Sheets.
+2. Rename the spreadsheet file as desired.
+3. Rename Sheet1 to Data
+4. Click on the Extensions menu at the top.
+5. Select Apps Script.
+6. In the Code.gs file, copy and paste the following code:
 ```
    function doGet() {
   return HtmlService.createHtmlOutputFromFile("Index")
