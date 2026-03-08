@@ -6,7 +6,7 @@ Work from Home Check-in System
 4. Click the menu Extension.
 5. Click App Script.
 6. In Code.gs, enter this code:
-
+```
    function doGet() {
   return HtmlService.createHtmlOutputFromFile("Index")
       .setTitle('ระบบลงเวลา WFH - สคพ.11')
@@ -22,7 +22,7 @@ function recordTime(data) {
   
   return "บันทึกข้อมูล " + data.status + " สำเร็จเวลา " + Utilities.formatDate(timestamp, "GMT+7", "HH:mm:ss");
 }
-   
+```
 8. Add a new HTML file, named index.html.
 9. Add this code in the index.html file:
 10. Click Deploy.
