@@ -1,5 +1,5 @@
 # Work from Home Check-in System
-An online Work from Home (WFH) check-in system for REO 11 personnel, built with Google Sheets and Google Apps Script.
+An online Work from Home (WFH) check-in system for EPO11 personnel, built with Google Sheets and Google Apps Script.
 
 ## Installation Guide
 1. Open Google Sheets.
