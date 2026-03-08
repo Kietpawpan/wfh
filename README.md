@@ -25,8 +25,8 @@ function recordTime(data) {
   return "บันทึกข้อมูล " + data.status + " สำเร็จเวลา " + Utilities.formatDate(timestamp, "GMT+7", "HH:mm:ss");
 }
 ```
-8. Add a new HTML file, named index.html.
-9. Add this code in the index.html file:
+8. Add a new HTML file by clicking the + icon next to Files and name it index.html.
+9. Copy and paste the following code into the index.html file:
 ```
     <!DOCTYPE html>
 <html>
@@ -182,7 +182,9 @@ function recordTime(data) {
 </html>
 ```
 
-11. Click Deploy.
-12. Set as Web App, and for anyone with account.
-13. Click continue.
-14. Copy the link.
+11. Click the Deploy button in the top right corner of the Apps Script editor.
+12. Select New deployment.
+13. Click the gear icon next to Select type and choose Web app.
+14. Under Who has access, change the dropdown to Anyone.
+15. Click the Deploy button and complete the Authorize access process to grant permissions.
+16. Copy the generated Web app URL to share with your team.
